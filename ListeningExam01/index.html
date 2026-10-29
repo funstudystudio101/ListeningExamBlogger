@@ -133,5 +133,13 @@ if(state.deadline&&Date.now()>=state.deadline)submit(true);else render();
   measure(true);
 })();
 </script>
+<style id="blogger-narrow-layout">
+.blogger-embed header,.blogger-embed footer{display:none}
+@media(max-width:650px){.nav-grid{grid-template-columns:repeat(8,minmax(0,1fr))}.nav-q{min-width:0;padding:0}.audio-bottom{flex-wrap:wrap;row-gap:6px}}
+@media(max-width:420px){header{height:auto;min-height:68px;padding-top:14px;padding-bottom:14px;gap:10px;flex-wrap:wrap}.topline{flex-wrap:wrap;gap:14px}.topline>.actions{margin-left:auto}}
+</style>
+<script>
+if(window.parent!==window&&new URLSearchParams(location.search).get('embed')==='blogger')document.documentElement.classList.add('blogger-embed');
+</script>
 </body>
 </html>
