@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" width="600" height="440" role="img" aria-labelledby="title desc">
+<title id="title">Girl with a red hat reading a book on a green bench in the park</title><desc id="desc">Girl with a red hat reading a book on a green bench in the park. Original vector illustration for listening exam 01.</desc>
+<defs><clipPath id="frame"><rect x="3" y="3" width="594" height="434" rx="24"/></clipPath></defs>
+<g clip-path="url(#frame)" stroke-linecap="round" stroke-linejoin="round"><rect width="600" height="440" fill="#eff6ee"/>
+ <path d="M0 280Q135 242 265 280T600 272V440H0Z" fill="#d6e6cf"/>
+ <path d="M0 358Q270 325 600 369V440H0Z" fill="#f0e8d8"/>
+ <ellipse cx="347" cy="383" rx="175" ry="15" fill="#d7d1bf" opacity=".55"/>
+ <path d="M90 303V152M91 216L59 183M92 242L130 204" fill="none" stroke="#a17852" stroke-width="18"/>
+ <path d="M30 190C4 160 26 126 44 116C29 82 63 55 92 65C113 31 154 50 162 80C201 78 214 114 194 141C212 170 186 197 156 192C125 218 70 213 52 196Z" fill="#85af88"/>
+ <path d="M54 129Q78 107 101 116M111 166Q135 151 162 158" stroke="#719b75" stroke-width="5" fill="none"/>
+ <path d="M38 310l6-13m17 12 7-18m-39 14-6-9" stroke="#7f9b70" stroke-width="3"/>
+ <!-- Green bench, with a visible back, seat and supports. -->
+ <path d="M225 273V364M499 273V364" stroke="#3e5350" stroke-width="12"/>
+ <rect x="208" y="234" width="307" height="24" rx="7" fill="#4c8b69" stroke="#315d49" stroke-width="3"/>
+ <rect x="208" y="266" width="307" height="23" rx="6" fill="#4c8b69" stroke="#315d49" stroke-width="3"/>
+ <rect x="199" y="301" width="327" height="18" rx="6" fill="#397554" stroke="#315d49" stroke-width="3"/>
+ <path d="M209 311V283M515 311V283" stroke="#3e5350" stroke-width="7"/>
+ <path d="M312 164Q304 120 347 119Q394 122 390 171L391 221Q374 235 359 207L315 210Z" fill="#684934" stroke="#304a50" stroke-width="3"/><path d="M329 309L325 339L336 365M364 309L363 341L375 365" stroke="#efbf96" stroke-width="19" fill="none"/>
+ <path d="M330 366l-11 9q-5 8 7 8h25v-14M370 366l-5 10q-3 7 7 7h23q8-5-2-10l-12-5" fill="#405861" stroke="#304a50" stroke-width="3"/><path d="M324 213Q346 205 370 213L386 300Q347 320 308 301Z" fill="#d88b81" stroke="#304a50" stroke-width="3.5"/>
+ <path d="M337 214q10 12 20 0" stroke="#ad665f" stroke-width="3" fill="none"/><path d="M338 203v13q11 9 21 0v-13" fill="#efbf96" stroke="#304a50" stroke-width="3"/>
+ <ellipse cx="347" cy="169" rx="34" ry="39" fill="#efbf96" stroke="#304a50" stroke-width="3"/>
+ <path d="M316 162q10-4 12-21q29 14 51 12" fill="#684934"/>
+ <path d="M333 173v3m29-3v3" stroke="#304a50" stroke-width="4"/>
+ <path d="M346 179l-3 6h5" stroke="#b67e5d" stroke-width="2" fill="none"/>
+ <path d="M340 195q8 5 15-1" stroke="#304a50" stroke-width="2.5" fill="none"/>
+ <ellipse cx="325" cy="186" rx="6" ry="3" fill="#d78d78" opacity=".55"/>
+ <ellipse cx="369" cy="186" rx="6" ry="3" fill="#d78d78" opacity=".55"/><path d="M310 139l8-28q28-21 58 0l9 28Z" fill="#d9564d" stroke="#304a50" stroke-width="3.5"/>
+ <path d="M311 130h72l2 10h-77Z" fill="#b93b35"/>
+ <path d="M298 142q48-10 96 0q10 7-1 11q-43 13-92 0q-12-4-3-11Z" fill="#df6258" stroke="#304a50" stroke-width="3"/><!-- The book is open; both forearms and hands are visible. -->
+  <path d="M320 228l-15 38 18 12M374 228l16 38-17 12" fill="none" stroke="#304a50" stroke-width="18"/>
+  <path d="M320 228l-15 38 18 12M374 228l16 38-17 12" fill="none" stroke="#efbf96" stroke-width="12"/>
+  <path d="M297 245q24-8 50 8q26-16 51-8v54q-26-7-51 8q-25-15-50-8Z" fill="#fdfbf0" stroke="#304a50" stroke-width="3.5"/>
+  <path d="M297 296q24-6 50 10q26-16 51-10v8q-25-6-51 8q-25-14-50-8Z" fill="#659c94" stroke="#304a50" stroke-width="3"/>
+  <path d="M347 254v49M308 261l27 7m-27 4 27 7m24-11 27-7m-27 18 27-7" stroke="#b7bcb1" stroke-width="2.5" fill="none"/>
+  <ellipse cx="298" cy="280" rx="7" ry="11" fill="#efbf96" stroke="#304a50" stroke-width="2.5"/>
+  <ellipse cx="398" cy="280" rx="7" ry="11" fill="#efbf96" stroke="#304a50" stroke-width="2.5"/></g>
+<rect x="3" y="3" width="594" height="434" rx="24" fill="none" stroke="#dae3df" stroke-width="2"/>
+</svg>
