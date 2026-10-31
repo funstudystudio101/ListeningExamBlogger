@@ -1,0 +1,1396 @@
+{
+  "schemaVersion": "1.1.0",
+  "bankId": "cap-listening-gept-elem-02",
+  "title": "英語聽力練習室・GEPT初級字彙模擬卷 02",
+  "language": "en",
+  "uiLanguage": "zh-TW",
+  "description": "依國中會考與全民英檢聽力題型編寫的原創模擬試題（第02回），語音與文字選項單字嚴格控制於 GEPT 初級單字表範圍內。",
+  "reference": {
+    "vocabularyLevel": "GEPT Elementary (全民英檢初級單字表 2,397 條)",
+    "sectionsCount": 3,
+    "totalQuestions": 21,
+    "notes": [
+      "本卷題目完全符合國中會考與全民英檢初級聽力測驗題型規範。",
+      "英文口語稿（旁白、對話、問題）及文字選項單字全部通過 GEPT 初級單字表檢核，無超綱單字。",
+      "第 1～3 題及第 18 題附原創 SVG 向量插圖與地圖，可離線檢視作答。"
+    ]
+  },
+  "settings": {
+    "durationSeconds": 1500,
+    "playsPerQuestion": 2,
+    "replayGapSeconds": 2,
+    "autoAdvanceSeconds": 8,
+    "scoring": "每題1分，滿分21分，答錯及未作答0分；百分比僅供練習參考，不換算官方等級。"
+  },
+  "audio": {
+    "revision": "neural-us-gept-v2",
+    "format": "m4a",
+    "codec": "aac",
+    "mimeType": "audio/mp4",
+    "production": "Microsoft Edge neural speech synthesis via edge-tts",
+    "voices": {
+      "F": "en-US-JennyNeural",
+      "M": "en-US-GuyNeural",
+      "N": "en-US-AriaNeural"
+    },
+    "locale": "en-US",
+    "rate": "-10%",
+    "sampleRateHz": 24000,
+    "bitrateKbps": 96,
+    "targetLoudnessLUFS": -18,
+    "truePeakLimitDbTP": -1.5,
+    "addedTurnPauseSeconds": 0.6,
+    "addedQuestionPauseSeconds": 1.2,
+    "soundCheckPath": "audio/sound-check.m4a"
+  },
+  "sections": [
+    {
+      "id": "picture",
+      "name": "辨識句意",
+      "start": 1,
+      "end": 3
+    },
+    {
+      "id": "response",
+      "name": "基本問答",
+      "start": 4,
+      "end": 11
+    },
+    {
+      "id": "dialogue",
+      "name": "言談理解",
+      "start": 12,
+      "end": 21
+    }
+  ],
+  "illustrations": {
+    "revision": "illustrations-gept-02-v2",
+    "format": "svg",
+    "viewBox": [
+      600,
+      440
+    ]
+  },
+  "questions": [
+    {
+      "id": "gept-listening-02-q01",
+      "number": 1,
+      "sectionId": "picture",
+      "type": "image-choice",
+      "instruction": "請聽語音，選出符合描述的圖片。",
+      "audioPath": "audio/q01.m4a",
+      "transcript": [
+        {
+          "speaker": "N",
+          "text": "A boy is cleaning the blackboard in the classroom."
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "N",
+          "text": "一名男孩正在教室裡擦黑板。"
+        }
+      ],
+      "translationZhTW": "旁白：一名男孩正在教室裡擦黑板。",
+      "options": [
+        {
+          "id": "A",
+          "text": null,
+          "imagePath": "images/boy-cleaning-blackboard.svg",
+          "imageAlt": "A boy cleaning the blackboard with an eraser in the classroom"
+        },
+        {
+          "id": "B",
+          "text": null,
+          "imagePath": "images/girl-sweeping-floor.svg",
+          "imageAlt": "A girl sweeping the classroom floor with a broom"
+        },
+        {
+          "id": "C",
+          "text": null,
+          "imagePath": "images/boy-reading-at-desk.svg",
+          "imageAlt": "A boy sitting at a school desk reading a book"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationZhTW": "句意為男孩正在教室裡擦黑板，符合 (A)；(B) 是女孩在掃地，(C) 是男孩坐在座位上看書。",
+      "skillTags": [
+        "辨識句意・打掃黑板"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 4.716
+    },
+    {
+      "id": "gept-listening-02-q02",
+      "number": 2,
+      "sectionId": "picture",
+      "type": "image-choice",
+      "instruction": "請聽語音，選出符合描述的圖片。",
+      "audioPath": "audio/q02.m4a",
+      "transcript": [
+        {
+          "speaker": "N",
+          "text": "Two rabbits are eating green grass under a big tree."
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "N",
+          "text": "兩隻兔子在大樹下吃綠草。"
+        }
+      ],
+      "translationZhTW": "旁白：兩隻兔子在大樹下吃綠草。",
+      "options": [
+        {
+          "id": "A",
+          "text": null,
+          "imagePath": "images/two-dogs-running-grass.svg",
+          "imageAlt": "Two dogs running on the green grass in the park"
+        },
+        {
+          "id": "B",
+          "text": null,
+          "imagePath": "images/two-rabbits-eating-grass.svg",
+          "imageAlt": "Two white rabbits eating green grass under a big tree"
+        },
+        {
+          "id": "C",
+          "text": null,
+          "imagePath": "images/one-cat-climbing-tree.svg",
+          "imageAlt": "One orange cat climbing up a big tree trunk"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanationZhTW": "句意提到兩隻兔子在大樹下的草地上吃草，符合 (B)；(A) 是兩隻狗在跑，(C) 是一隻貓在爬樹。",
+      "skillTags": [
+        "辨識句意・樹下草地上的兔子"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 5.2
+    },
+    {
+      "id": "gept-listening-02-q03",
+      "number": 3,
+      "sectionId": "picture",
+      "type": "image-choice",
+      "instruction": "請聽語音，選出符合描述的圖片。",
+      "audioPath": "audio/q03.m4a",
+      "transcript": [
+        {
+          "speaker": "N",
+          "text": "A girl in a yellow shirt is playing tennis on the court."
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "N",
+          "text": "一名穿著黃色上衣的女孩正在球場上打網球。"
+        }
+      ],
+      "translationZhTW": "旁白：一名穿著黃色上衣的女孩正在球場上打網球。",
+      "options": [
+        {
+          "id": "A",
+          "text": null,
+          "imagePath": "images/girl-playing-basketball.svg",
+          "imageAlt": "A girl in a yellow shirt playing basketball near the hoop"
+        },
+        {
+          "id": "B",
+          "text": null,
+          "imagePath": "images/boy-playing-soccer.svg",
+          "imageAlt": "A boy playing soccer on the green field"
+        },
+        {
+          "id": "C",
+          "text": null,
+          "imagePath": "images/girl-playing-tennis.svg",
+          "imageAlt": "A girl in a yellow shirt playing tennis on the court"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanationZhTW": "句意為穿黃上衣的女孩在球場上打網球，符合 (C)；(A) 是女孩打籃球，(B) 是男孩踢足球。",
+      "skillTags": [
+        "辨識句意・網球場上打網球"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 5.148
+    },
+    {
+      "id": "gept-listening-02-q04",
+      "number": 4,
+      "sectionId": "response",
+      "type": "single-choice",
+      "instruction": "請聽語音，選出最適合的回應。",
+      "audioPath": "audio/q04.m4a",
+      "transcript": [
+        {
+          "speaker": "F",
+          "text": "Could I speak to the manager, please?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "F",
+          "text": "請問我可以和經理通話嗎？"
+        }
+      ],
+      "translationZhTW": "女：請問我可以和經理通話嗎？",
+      "options": [
+        {
+          "id": "A",
+          "text": "He is in a meeting right now. May I take a message?",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "The manager's office is on the first floor.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "I will call you tomorrow.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationZhTW": "對方打電話找經理，(A)「他現在正在開會，需要我幫您留言嗎？」是專業且合適的電話回應；(B) 說明辦公室樓層，(C) 說明天會打給你。",
+      "skillTags": [
+        "基本問答・致電找經理"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 4.2
+    },
+    {
+      "id": "gept-listening-02-q05",
+      "number": 5,
+      "sectionId": "response",
+      "type": "single-choice",
+      "instruction": "請聽語音，選出最適合的回應。",
+      "audioPath": "audio/q05.m4a",
+      "transcript": [
+        {
+          "speaker": "M",
+          "text": "How often do the trains come to this station?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "M",
+          "text": "火車大約多久來一班到這個車站？"
+        }
+      ],
+      "translationZhTW": "男：火車大約多久來一班到這個車站？",
+      "options": [
+        {
+          "id": "A",
+          "text": "The train station is very clean.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "Every fifteen minutes during the day.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "I took a train to Tainan.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "B",
+      "explanationZhTW": "問句詢問班車間隔頻率（How often），(B)「白天每十五分鐘一班」直接回答頻率；(A) 形容車站整潔，(C) 敘述自己去台南。",
+      "skillTags": [
+        "基本問答・詢問火車班次間隔"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 4.6
+    },
+    {
+      "id": "gept-listening-02-q06",
+      "number": 6,
+      "sectionId": "response",
+      "type": "single-choice",
+      "instruction": "請聽語音，選出最適合的回應。",
+      "audioPath": "audio/q06.m4a",
+      "transcript": [
+        {
+          "speaker": "F",
+          "text": "These heavy boxes look hard to move."
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "F",
+          "text": "這些沉重的箱子看起來很難搬動。"
+        }
+      ],
+      "translationZhTW": "女：這些沉重的箱子看起來很難搬動。",
+      "options": [
+        {
+          "id": "A",
+          "text": "The boxes are made of wood.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "I put them in the garage.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "Let me give you a hand with them.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "C",
+      "explanationZhTW": "對方提到箱子很重很難搬，(C)「讓我來幫你一把吧。」是熱心恰當的回應；(A) 說明箱子材質，(B) 說放在車庫。",
+      "skillTags": [
+        "基本問答・主動提供協助"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 4.2
+    },
+    {
+      "id": "gept-listening-02-q07",
+      "number": 7,
+      "sectionId": "response",
+      "type": "single-choice",
+      "instruction": "請聽語音，選出最適合的回應。",
+      "audioPath": "audio/q07.m4a",
+      "transcript": [
+        {
+          "speaker": "M",
+          "text": "Your blue jacket looks very warm and comfortable."
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "M",
+          "text": "你的藍色外套看起來很保暖舒適。"
+        }
+      ],
+      "translationZhTW": "男：你的藍色外套看起來很保暖舒適。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thank you. My mother bought it for my birthday.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "I like to wear white shoes.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "The department store is crowded.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationZhTW": "對方稱讚外套保暖舒適，(A)「謝謝你，這是我媽媽買給我的生日禮物。」禮貌並自然回應；(B) 說喜歡穿白鞋，(C) 說百貨公司很擠。",
+      "skillTags": [
+        "基本問答・回應外套稱讚"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 4.9
+    },
+    {
+      "id": "gept-listening-02-q08",
+      "number": 8,
+      "sectionId": "response",
+      "type": "single-choice",
+      "instruction": "請聽語音，選出最適合的回應。",
+      "audioPath": "audio/q08.m4a",
+      "transcript": [
+        {
+          "speaker": "F",
+          "text": "What kind of music do you like to listen to?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "F",
+          "text": "你喜歡聽哪種類型的音樂？"
+        }
+      ],
+      "translationZhTW": "女：你喜歡聽哪種類型的音樂？",
+      "options": [
+        {
+          "id": "A",
+          "text": "The radio is in the kitchen.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "I really enjoy pop music and guitar songs.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "I listen to music every night.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "B",
+      "explanationZhTW": "問句詢問喜歡哪種音樂，(B)「我非常喜歡流行音樂和吉他歌曲。」明確說明喜好；(A) 說明收音機位置，(C) 說明聽音樂的時間。",
+      "skillTags": [
+        "基本問答・詢問音樂喜好"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 4.3
+    },
+    {
+      "id": "gept-listening-02-q09",
+      "number": 9,
+      "sectionId": "response",
+      "type": "single-choice",
+      "instruction": "請聽語音，選出最適合的回應。",
+      "audioPath": "audio/q09.m4a",
+      "transcript": [
+        {
+          "speaker": "M",
+          "text": "Did you enjoy your trip to Hualian last week?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "M",
+          "text": "你喜歡上週去花蓮的旅行嗎？"
+        }
+      ],
+      "translationZhTW": "男：你喜歡上週去花蓮的旅行嗎？",
+      "options": [
+        {
+          "id": "A",
+          "text": "The train ticket was five hundred dollars.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "We plan to go there next month.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "Yes, the beach and mountains were wonderful.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "C",
+      "explanationZhTW": "對方詢問上週花蓮旅行是否好玩，(C)「是的，海灘和山景都棒極了。」正面分享旅遊感受；(A) 說車票價格，(B) 提到下個月要去。",
+      "skillTags": [
+        "基本問答・詢問旅行體驗"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 4.596
+    },
+    {
+      "id": "gept-listening-02-q10",
+      "number": 10,
+      "sectionId": "response",
+      "type": "single-choice",
+      "instruction": "請聽語音，選出最適合的回應。",
+      "audioPath": "audio/q10.m4a",
+      "transcript": [
+        {
+          "speaker": "F",
+          "text": "Could you help me cut these carrots for the salad?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "F",
+          "text": "你可以幫我把做沙拉用的這些紅蘿蔔切好嗎？"
+        }
+      ],
+      "translationZhTW": "女：你可以幫我把做沙拉用的這些紅蘿蔔切好嗎？",
+      "options": [
+        {
+          "id": "A",
+          "text": "No problem. I will wash my hands first.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "Carrots are red and orange.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "We had dinner an hour ago.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationZhTW": "對方請求幫忙切紅蘿蔔，(A)「沒問題，我先去洗個手。」爽快答應並主動注意衛生；(B) 描述顏色，(C) 提到一小時前吃過晚餐。",
+      "skillTags": [
+        "基本問答・請求料理協助"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 4.332
+    },
+    {
+      "id": "gept-listening-02-q11",
+      "number": 11,
+      "sectionId": "response",
+      "type": "single-choice",
+      "instruction": "請聽語音，選出最適合的回應。",
+      "audioPath": "audio/q11.m4a",
+      "transcript": [
+        {
+          "speaker": "M",
+          "text": "Do you have this white T-shirt in a larger size?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "M",
+          "text": "這件白色 T 恤有大一點的尺寸嗎？"
+        }
+      ],
+      "translationZhTW": "男：這件白色 T 恤有大一點的尺寸嗎？",
+      "options": [
+        {
+          "id": "A",
+          "text": "White is my favorite color.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "Let me check the back room for you.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "I bought two shirts last week.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "B",
+      "explanationZhTW": "顧客詢問是否有大一號的尺寸，店員 (B)「我幫您去庫存室找找看。」直接提供服務；(A) 說最喜歡白色，(C) 說上週買過兩件。",
+      "skillTags": [
+        "基本問答・詢問更大尺碼"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 4.8
+    },
+    {
+      "id": "gept-listening-02-q12",
+      "number": 12,
+      "sectionId": "dialogue",
+      "type": "single-choice",
+      "instruction": "請聽對話或短文及問題，選出最適合的答案。",
+      "audioPath": "audio/q12.m4a",
+      "transcript": [
+        {
+          "speaker": "F",
+          "text": "Good afternoon. May I help you?"
+        },
+        {
+          "speaker": "M",
+          "text": "Yes. I would like two strawberry cakes and one cup of black coffee."
+        },
+        {
+          "speaker": "F",
+          "text": "Each cake is forty dollars, and the coffee is thirty dollars."
+        },
+        {
+          "speaker": "M",
+          "text": "Here is one hundred and fifty dollars."
+        },
+        {
+          "speaker": "F",
+          "text": "Thank you. Your change is forty dollars."
+        },
+        {
+          "speaker": "N",
+          "text": "Question: How much will the boy pay for the cakes and coffee?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "F",
+          "text": "午安，需要幫忙嗎？"
+        },
+        {
+          "speaker": "M",
+          "text": "是的，我想要買兩個草莓蛋糕和一杯黑咖啡。"
+        },
+        {
+          "speaker": "F",
+          "text": "每個蛋糕四十元，咖啡三十元。"
+        },
+        {
+          "speaker": "M",
+          "text": "這是一百五十元。"
+        },
+        {
+          "speaker": "F",
+          "text": "謝謝你，找你四十元。"
+        },
+        {
+          "speaker": "N",
+          "text": "問題：男孩買蛋糕和咖啡要付多少錢？"
+        }
+      ],
+      "translationZhTW": "女：午安，需要幫忙嗎？\n男：是的，我想要買兩個草莓蛋糕和一杯黑咖啡。\n女：每個蛋糕四十元，咖啡三十元。\n男：這是一百五十元。\n女：謝謝你，找你四十元。\n旁白：問題：男孩買蛋糕和咖啡要付多少錢？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Seventy dollars.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "Eighty dollars.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "One hundred and ten dollars.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "C",
+      "explanationZhTW": "兩個草莓蛋糕共 80 元，加上一杯 30 元的咖啡，總計 110 元（付 150 元找 40 元），故選 (C)。",
+      "skillTags": [
+        "言談理解・麵包店蛋糕咖啡結帳"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 32.1
+    },
+    {
+      "id": "gept-listening-02-q13",
+      "number": 13,
+      "sectionId": "dialogue",
+      "type": "single-choice",
+      "instruction": "請聽對話或短文及問題，選出最適合的答案。",
+      "audioPath": "audio/q13.m4a",
+      "transcript": [
+        {
+          "speaker": "M",
+          "text": "When should we meet to study for our math exam?"
+        },
+        {
+          "speaker": "F",
+          "text": "How about Saturday morning? The library opens at eight thirty."
+        },
+        {
+          "speaker": "M",
+          "text": "Let us meet half an hour after it opens, so we can get good seats."
+        },
+        {
+          "speaker": "F",
+          "text": "Sounds good. See you at nine o'clock."
+        },
+        {
+          "speaker": "N",
+          "text": "Question: What time will the students meet on Saturday?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "M",
+          "text": "我們什麼時候碰面準備數學考試？"
+        },
+        {
+          "speaker": "F",
+          "text": "星期六早上怎麼樣？圖書館八點半開門。"
+        },
+        {
+          "speaker": "M",
+          "text": "那我們開門後半小時集合，這樣能找到好位子。"
+        },
+        {
+          "speaker": "F",
+          "text": "聽起來不錯，九點見。"
+        },
+        {
+          "speaker": "N",
+          "text": "問題：學生星期六將在幾點集合？"
+        }
+      ],
+      "translationZhTW": "男：我們什麼時候碰面準備數學考試？\n女：星期六早上怎麼樣？圖書館八點半開門。\n男：那我們開門後半小時集合，這樣能找到好位子。\n女：聽起來不錯，九點見。\n旁白：問題：學生星期六將在幾點集合？",
+      "options": [
+        {
+          "id": "A",
+          "text": "At nine o'clock.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "At eight thirty.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "At nine thirty.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationZhTW": "圖書館八點半開門，學生約在開門後半小時（即九點整 9:00）碰面，故選 (A)。",
+      "skillTags": [
+        "言談理解・數學讀書會碰面時間"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 27.2
+    },
+    {
+      "id": "gept-listening-02-q14",
+      "number": 14,
+      "sectionId": "dialogue",
+      "type": "single-choice",
+      "instruction": "請聽對話或短文及問題，選出最適合的答案。",
+      "audioPath": "audio/q14.m4a",
+      "transcript": [
+        {
+          "speaker": "F",
+          "text": "Two tickets for the animal cartoon at two o'clock, please."
+        },
+        {
+          "speaker": "M",
+          "text": "The front seats are all taken, but the back row is available."
+        },
+        {
+          "speaker": "F",
+          "text": "The back row is fine for us."
+        },
+        {
+          "speaker": "M",
+          "text": "That will be four hundred dollars altogether."
+        },
+        {
+          "speaker": "N",
+          "text": "Question: Where will the woman and her friend sit?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "F",
+          "text": "請給我兩張兩點場次的動物卡通電影票。"
+        },
+        {
+          "speaker": "M",
+          "text": "前面的位子都客滿了，不過最後一排還有空位。"
+        },
+        {
+          "speaker": "F",
+          "text": "最後一排對我們來說很好。"
+        },
+        {
+          "speaker": "M",
+          "text": "總共是四百元。"
+        },
+        {
+          "speaker": "N",
+          "text": "問題：女子和朋友會坐在哪裡？"
+        }
+      ],
+      "translationZhTW": "女：請給我兩張兩點場次的動物卡通電影票。\n男：前面的位子都客滿了，不過最後一排還有空位。\n女：最後一排對我們來說很好。\n男：總共是四百元。\n旁白：問題：女子和朋友會坐在哪裡？",
+      "options": [
+        {
+          "id": "A",
+          "text": "In the front row.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "In the back row.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "Outside the theater.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "B",
+      "explanationZhTW": "售票員說明前排已滿但後排有空位，女子同意坐後排（back row），故選 (B)。",
+      "skillTags": [
+        "言談理解・電影院購票選位"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 23.9
+    },
+    {
+      "id": "gept-listening-02-q15",
+      "number": 15,
+      "sectionId": "dialogue",
+      "type": "single-choice",
+      "instruction": "請聽對話或短文及問題，選出最適合的答案。",
+      "audioPath": "audio/q15.m4a",
+      "transcript": [
+        {
+          "speaker": "M",
+          "text": "Excuse me, does this bus go to the city museum?"
+        },
+        {
+          "speaker": "F",
+          "text": "No, this is bus number twelve. You need to take bus number twenty."
+        },
+        {
+          "speaker": "M",
+          "text": "Where can I catch bus number twenty?"
+        },
+        {
+          "speaker": "F",
+          "text": "Cross the street and wait in front of the post office."
+        },
+        {
+          "speaker": "N",
+          "text": "Question: Which bus should the man take to the museum?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "M",
+          "text": "不好意思，這班公車有到市立博物館嗎？"
+        },
+        {
+          "speaker": "F",
+          "text": "沒有，這是十二路公車。你需要搭二十路公車。"
+        },
+        {
+          "speaker": "M",
+          "text": "我在哪裡可以搭到二十路公車？"
+        },
+        {
+          "speaker": "F",
+          "text": "過馬路到郵局前面等車就可以了。"
+        },
+        {
+          "speaker": "N",
+          "text": "問題：男子應該搭幾路公車去博物館？"
+        }
+      ],
+      "translationZhTW": "男：不好意思，這班公車有到市立博物館嗎？\n女：沒有，這是十二路公車。你需要搭二十路公車。\n男：我在哪裡可以搭到二十路公車？\n女：過馬路到郵局前面等車就可以了。\n旁白：問題：男子應該搭幾路公車去博物館？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bus number twenty.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "Bus number twelve.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "Bus number two.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationZhTW": "女子明確告知要搭 20 路公車（bus number twenty）才能抵達博物館，故選 (A)。",
+      "skillTags": [
+        "言談理解・詢問前往博物館的公車"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 25.8
+    },
+    {
+      "id": "gept-listening-02-q16",
+      "number": 16,
+      "sectionId": "dialogue",
+      "type": "single-choice",
+      "instruction": "請聽對話或短文及問題，選出最適合的答案。",
+      "audioPath": "audio/q16.m4a",
+      "transcript": [
+        {
+          "speaker": "F",
+          "text": "The weather report says it will be stormy tomorrow."
+        },
+        {
+          "speaker": "M",
+          "text": "Then we should cancel our picnic by the river."
+        },
+        {
+          "speaker": "F",
+          "text": "Where should we go then?"
+        },
+        {
+          "speaker": "M",
+          "text": "Let us visit the art museum in the city."
+        },
+        {
+          "speaker": "F",
+          "text": "That is a great idea. It will keep us dry."
+        },
+        {
+          "speaker": "N",
+          "text": "Question: Where will they go tomorrow?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "F",
+          "text": "氣象預報說明天會有暴風雨。"
+        },
+        {
+          "speaker": "M",
+          "text": "那我們應該取消河邊的野餐了。"
+        },
+        {
+          "speaker": "F",
+          "text": "那我們要去哪裡呢？"
+        },
+        {
+          "speaker": "M",
+          "text": "我們去參觀市區的美術館吧。"
+        },
+        {
+          "speaker": "F",
+          "text": "好主意，這樣我們就不會淋濕了。"
+        },
+        {
+          "speaker": "N",
+          "text": "問題：他們明天將會去哪裡？"
+        }
+      ],
+      "translationZhTW": "女：氣象預報說明天會有暴風雨。\n男：那我們應該取消河邊的野餐了。\n女：那我們要去哪裡呢？\n男：我們去參觀市區的美術館吧。\n女：好主意，這樣我們就不會淋濕了。\n旁白：問題：他們明天將會去哪裡？",
+      "options": [
+        {
+          "id": "A",
+          "text": "To the river.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "To the art museum.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "To the beach.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "B",
+      "explanationZhTW": "因為預報明天有暴風雨，他們決定取消河邊野餐，改去市區美術館（art museum），故選 (B)。",
+      "skillTags": [
+        "言談理解・雨天備案改去美術館"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 25.9
+    },
+    {
+      "id": "gept-listening-02-q17",
+      "number": 17,
+      "sectionId": "dialogue",
+      "type": "single-choice",
+      "instruction": "請聽對話或短文及問題，選出最適合的答案。",
+      "audioPath": "audio/q17.m4a",
+      "transcript": [
+        {
+          "speaker": "M",
+          "text": "Are you going to the camera club meeting after school?"
+        },
+        {
+          "speaker": "F",
+          "text": "Yes. The teacher will show us how to take pictures of birds."
+        },
+        {
+          "speaker": "M",
+          "text": "Do you have your own camera?"
+        },
+        {
+          "speaker": "F",
+          "text": "No, but my brother will lend me his camera today."
+        },
+        {
+          "speaker": "N",
+          "text": "Question: Whose camera will the girl use?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "M",
+          "text": "你放學後會去參加攝影社的聚會嗎？"
+        },
+        {
+          "speaker": "F",
+          "text": "會啊，老師要教我們怎麼拍鳥類的照片。"
+        },
+        {
+          "speaker": "M",
+          "text": "你有自己的相機嗎？"
+        },
+        {
+          "speaker": "F",
+          "text": "沒有，不過我哥哥今天會把他的相機借給我。"
+        },
+        {
+          "speaker": "N",
+          "text": "問題：女孩將會使用誰的相機？"
+        }
+      ],
+      "translationZhTW": "男：你放學後會去參加攝影社的聚會嗎？\n女：會啊，老師要教我們怎麼拍鳥類的照片。\n男：你有自己的相機嗎？\n女：沒有，不過我哥哥今天會把他的相機借給我。\n旁白：問題：女孩將會使用誰的相機？",
+      "options": [
+        {
+          "id": "A",
+          "text": "The teacher's camera.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "Her own camera.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "Her brother's camera.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "C",
+      "explanationZhTW": "女孩表示哥哥今天會借相機給她，因此她用的是哥哥的相機（Her brother's camera），故選 (C)。",
+      "skillTags": [
+        "言談理解・攝影社借相機"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 23.9
+    },
+    {
+      "id": "gept-listening-02-q18",
+      "number": 18,
+      "sectionId": "dialogue",
+      "type": "image-choice",
+      "instruction": "請聽對話或短文及問題，選出最適合的答案。",
+      "audioPath": "audio/q18.m4a",
+      "transcript": [
+        {
+          "speaker": "F",
+          "text": "Look at the school map. The library is north of the main gate."
+        },
+        {
+          "speaker": "M",
+          "text": "Where is our science classroom? Our teacher said it is near the garden."
+        },
+        {
+          "speaker": "F",
+          "text": "The science classroom is east of the library, right next to the garden."
+        },
+        {
+          "speaker": "M",
+          "text": "I see it now. Let us hurry before the bell rings."
+        },
+        {
+          "speaker": "N",
+          "text": "Question: Which room will the students go to?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "F",
+          "text": "看學校地圖，圖書館在校門口北邊。"
+        },
+        {
+          "speaker": "M",
+          "text": "我們的自然教室在哪裡？老師說靠近花園。"
+        },
+        {
+          "speaker": "F",
+          "text": "自然教室在圖書館東邊，就在花園正旁邊。"
+        },
+        {
+          "speaker": "M",
+          "text": "我現在看懂了，在打鐘前快走吧。"
+        },
+        {
+          "speaker": "N",
+          "text": "問題：學生要去哪一間教室？"
+        }
+      ],
+      "translationZhTW": "女：看學校地圖，圖書館在校門口北邊。\n男：我們的自然教室在哪裡？老師說靠近花園。\n女：自然教室在圖書館東邊，就在花園正旁邊。\n男：我現在看懂了，在打鐘前快走吧。\n旁白：問題：學生要去哪一間教室？",
+      "options": [
+        {
+          "id": "A",
+          "text": null,
+          "imagePath": "images/campus-map-gym.svg",
+          "imageAlt": "Campus map highlighting the Gym"
+        },
+        {
+          "id": "B",
+          "text": null,
+          "imagePath": "images/campus-map-science-room.svg",
+          "imageAlt": "Campus map highlighting the Science Room"
+        },
+        {
+          "id": "C",
+          "text": null,
+          "imagePath": "images/campus-map-computer-room.svg",
+          "imageAlt": "Campus map highlighting the Computer Room"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanationZhTW": "學生要前往自然教室，地圖顯示自然教室在圖書館東側且緊鄰花園，故選 (B)。",
+      "skillTags": [
+        "言談理解・校園地圖找自然實驗教室"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 29.7
+    },
+    {
+      "id": "gept-listening-02-q19",
+      "number": 19,
+      "sectionId": "dialogue",
+      "type": "single-choice",
+      "instruction": "請聽對話或短文及問題，選出最適合的答案。",
+      "audioPath": "audio/q19.m4a",
+      "transcript": [
+        {
+          "speaker": "F",
+          "text": "Good evening, library visitors. The city library will close early tonight at seven o'clock for the holiday. Please return all borrowed books to the front desk before six thirty. We will be open again on Monday morning at nine. Thank you and have a wonderful holiday."
+        },
+        {
+          "speaker": "N",
+          "text": "Question: What time will the library close tonight?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "F",
+          "text": "各位讀者晚安。市立圖書館今晚因節日將在七點提早閉館。請在六點半前將所有借閱書籍歸還至服務台。我們將於星期一上午九點重新開放，謝謝大家並祝假期愉快。"
+        },
+        {
+          "speaker": "N",
+          "text": "問題：圖書館今晚幾點閉館？"
+        }
+      ],
+      "translationZhTW": "女：各位讀者晚安。市立圖書館今晚因節日將在七點提早閉館。請在六點半前將所有借閱書籍歸還至服務台。我們將於星期一上午九點重新開放，謝謝大家並祝假期愉快。\n旁白：問題：圖書館今晚幾點閉館？",
+      "options": [
+        {
+          "id": "A",
+          "text": "At six thirty.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "At nine o'clock.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "At seven o'clock.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "C",
+      "explanationZhTW": "廣播明確說明因假日圖書館今晚提早於七點（seven o'clock）閉館，六點半是還書截止時間，故選 (C)。",
+      "skillTags": [
+        "言談理解・圖書館閉館時間廣播"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 26.5
+    },
+    {
+      "id": "gept-listening-02-q20",
+      "number": 20,
+      "sectionId": "dialogue",
+      "type": "single-choice",
+      "instruction": "請聽對話或短文及問題，選出最適合的答案。",
+      "audioPath": "audio/q20.m4a",
+      "transcript": [
+        {
+          "speaker": "M",
+          "text": "What should we buy for our mother's birthday?"
+        },
+        {
+          "speaker": "F",
+          "text": "She loves drinking tea, but she needs a new teapot."
+        },
+        {
+          "speaker": "M",
+          "text": "We could get her a beautiful purple teapot from the department store."
+        },
+        {
+          "speaker": "F",
+          "text": "That sounds like a wonderful gift. Let us go and buy it now."
+        },
+        {
+          "speaker": "N",
+          "text": "Question: What gift will they buy for their mother?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "M",
+          "text": "我們應該買什麼當作媽媽的生日禮物？"
+        },
+        {
+          "speaker": "F",
+          "text": "她很喜歡喝茶，而且她正需要一個新茶壺。"
+        },
+        {
+          "speaker": "M",
+          "text": "我們可以去百貨公司買一個漂亮的紫色茶壺送給她。"
+        },
+        {
+          "speaker": "F",
+          "text": "聽起來是很棒的禮物，我們現在就去買吧。"
+        },
+        {
+          "speaker": "N",
+          "text": "問題：他們將會買什麼禮物送給媽媽？"
+        }
+      ],
+      "translationZhTW": "男：我們應該買什麼當作媽媽的生日禮物？\n女：她很喜歡喝茶，而且她正需要一個新茶壺。\n男：我們可以去百貨公司買一個漂亮的紫色茶壺送給她。\n女：聽起來是很棒的禮物，我們現在就去買吧。\n旁白：問題：他們將會買什麼禮物送給媽媽？",
+      "options": [
+        {
+          "id": "A",
+          "text": "A purple teapot.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "A warm jacket.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "A box of cakes.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "A",
+      "explanationZhTW": "對話中兩人決定去百貨公司買一個漂亮的紫色茶壺（purple teapot）送給愛喝茶的媽媽，故選 (A)。",
+      "skillTags": [
+        "言談理解・挑選媽媽生日禮物"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 26.0
+    },
+    {
+      "id": "gept-listening-02-q21",
+      "number": 21,
+      "sectionId": "dialogue",
+      "type": "single-choice",
+      "instruction": "請聽對話或短文及問題，選出最適合的答案。",
+      "audioPath": "audio/q21.m4a",
+      "transcript": [
+        {
+          "speaker": "F",
+          "text": "How do you make this delicious tomato soup?"
+        },
+        {
+          "speaker": "M",
+          "text": "First, cook the onions with butter in a pot."
+        },
+        {
+          "speaker": "F",
+          "text": "Do you add the tomatoes next?"
+        },
+        {
+          "speaker": "M",
+          "text": "Yes. Then add the tomatoes, water, and some salt. Cook them for twenty minutes."
+        },
+        {
+          "speaker": "N",
+          "text": "Question: How long should the tomatoes cook in the pot?"
+        }
+      ],
+      "transcriptZhTW": [
+        {
+          "speaker": "F",
+          "text": "你怎麼做出這道美味番茄湯的？"
+        },
+        {
+          "speaker": "M",
+          "text": "首先，在鍋子裡用奶油炒洋蔥。"
+        },
+        {
+          "speaker": "F",
+          "text": "接下來加番茄嗎？"
+        },
+        {
+          "speaker": "M",
+          "text": "對，接著加入番茄、水和少許鹽，煮二十分鐘。"
+        },
+        {
+          "speaker": "N",
+          "text": "問題：番茄在鍋子裡要煮多久？"
+        }
+      ],
+      "translationZhTW": "女：你怎麼做出這道美味番茄湯的？\n男：首先，在鍋子裡用奶油炒洋蔥。\n女：接下來加番茄嗎？\n男：對，接著加入番茄、水和少許鹽，煮二十分鐘。\n旁白：問題：番茄在鍋子裡要煮多久？",
+      "options": [
+        {
+          "id": "A",
+          "text": "For ten minutes.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "B",
+          "text": "For twenty minutes.",
+          "imagePath": null,
+          "imageAlt": null
+        },
+        {
+          "id": "C",
+          "text": "For thirty minutes.",
+          "imagePath": null,
+          "imageAlt": null
+        }
+      ],
+      "correctOptionId": "B",
+      "explanationZhTW": "男孩說明加入番茄、水和鹽後，需要在鍋中煮二十分鐘（twenty minutes），故選 (B)。",
+      "skillTags": [
+        "言談理解・煮番茄湯的烹飪時間"
+      ],
+      "points": 1,
+      "audioDurationSeconds": 26.7
+    }
+  ]
+}
