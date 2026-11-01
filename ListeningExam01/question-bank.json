@@ -96,19 +96,19 @@
         {
           "id": "A",
           "text": null,
-          "imagePath": "images/girl-reading-bench.svg",
+          "imagePath": "images/girl-reading-bench.webp",
           "imageAlt": "Girl with red hat reading a book on a green bench in the park"
         },
         {
           "id": "B",
           "text": null,
-          "imagePath": "images/boy-reading-bench.svg",
+          "imagePath": "images/boy-reading-bench.webp",
           "imageAlt": "Boy with blue cap reading a book on a green bench in the park"
         },
         {
           "id": "C",
           "text": null,
-          "imagePath": "images/girl-drinking-bench.svg",
+          "imagePath": "images/girl-drinking-bench.webp",
           "imageAlt": "Girl with red hat drinking juice on a green bench in the park"
         }
       ],
@@ -144,19 +144,19 @@
         {
           "id": "A",
           "text": null,
-          "imagePath": "images/two-apples-three-bananas.svg",
+          "imagePath": "images/two-apples-three-bananas.webp",
           "imageAlt": "White plate with two red apples and three yellow bananas"
         },
         {
           "id": "B",
           "text": null,
-          "imagePath": "images/three-apples-two-oranges.svg",
+          "imagePath": "images/three-apples-two-oranges.webp",
           "imageAlt": "White plate with three red apples and two orange oranges"
         },
         {
           "id": "C",
           "text": null,
-          "imagePath": "images/four-oranges-one-apple.svg",
+          "imagePath": "images/four-oranges-one-apple.webp",
           "imageAlt": "White plate with four orange oranges and one red apple"
         }
       ],
@@ -192,19 +192,19 @@
         {
           "id": "A",
           "text": null,
-          "imagePath": "images/man-riding-bicycle-rain.svg",
+          "imagePath": "images/man-riding-bicycle-rain.webp",
           "imageAlt": "Man riding a bicycle in the rain"
         },
         {
           "id": "B",
           "text": null,
-          "imagePath": "images/woman-holding-blue-umbrella.svg",
+          "imagePath": "images/woman-holding-blue-umbrella.webp",
           "imageAlt": "Woman holding a blue umbrella walking on the street"
         },
         {
           "id": "C",
           "text": null,
-          "imagePath": "images/man-holding-yellow-umbrella.svg",
+          "imagePath": "images/man-holding-yellow-umbrella.webp",
           "imageAlt": "Man holding a yellow umbrella walking across the street"
         }
       ],
