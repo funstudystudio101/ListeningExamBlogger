@@ -145,5 +145,9 @@ window.addEventListener('pageshow',event=>{if(event.persisted)resetExam();});
 <script>
 if(window.parent!==window&&new URLSearchParams(location.search).get('embed')==='blogger')document.documentElement.classList.add('blogger-embed');
 </script>
+<style id="vertical-image-options">
+.options.image-options{grid-template-columns:minmax(0,1fr)!important;gap:18px}
+.options.image-options .image-choice{width:100%;max-width:480px}
+</style>
 </body>
 </html>
